@@ -36,6 +36,7 @@ namespace ConsoleTest
             foreach(Match match in matches)
             {
                 Console.WriteLine(match.ToString());
+                Console.WriteLine("Test modify");
             }
 
         }
